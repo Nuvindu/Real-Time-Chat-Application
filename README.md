@@ -25,7 +25,8 @@ If the yarn command is not working, use following code
 ### References 
 
 <br/>
-https://www.apollographql.com/docs/react/get-started/
+
+https://www.apollographql.com/docs/react/get-started
 
 https://www.youtube.com/watch?v=E3NHd-PkLrQ
 
