@@ -7,12 +7,11 @@ Chat Application with Instant Messaging feature. Technologies - React, GraphQL
 
 <br/>
 
-Enter the server folder from a terminal and start the server
+Enter to the server folder from a terminal and start the server
 
  ``` npm start ```
 
-While the server running, create another terminal and enter the client folder
-Start the React app
+While the server running, create another terminal and enter to the client folder and start the React app
 
 ``` yarn start ```
 
