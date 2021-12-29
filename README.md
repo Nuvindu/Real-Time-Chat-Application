@@ -7,21 +7,56 @@ Chat Application with Instant Messaging feature. Technologies - React, GraphQL, 
 
 <br/>
 
-Create new package: ``` yarn init -y ```
+#### Server
 
-If the yarn command is not working, use following code: 
+<br/>
 
-``` powershell -ExecutionPolicy Bypass -File 'C:\Users\ {Your User Account Name} \AppData\Roaming\npm\yarn.ps1' yarn {command} ```
+Create new package 
+```javascript
+npm init -y
+```
 
-GraphQL Yoga (A Fully-featured GraphQL Server):  ``` yarn add graphql-yoga ```
+GraphQL Yoga (A Fully-featured GraphQL Server):  
+```javascript
+npm install graphql-yoga 
+ ```
 
-Apollo Client: ``` yarn add @apollo/client graphql ```
+<br/>
 
-Chakra UI: ``` yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^5 ```
+#### Client
 
-WebSocket: ``` yarn add subscriptions-transport-ws ```
+<br/>
 
-Shrads React: ``` yarn add shards-react ```
+Create new package: 
+```javascript 
+yarn init -y 
+```
+
+**If a yarn command is not working, try using the following command:**
+
+```javascript
+powershell -ExecutionPolicy Bypass -File 'C:\Users\ {Your User Account Name} \AppData\Roaming\npm\yarn.ps1' {yarn command} 
+ ```
+
+Apollo Client: 
+```javascript
+yarn add @apollo/client graphql 
+```
+
+Chakra UI: 
+```javascript
+yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^5 
+ ```
+
+WebSocket: 
+```javascript
+yarn add subscriptions-transport-ws 
+ ```
+
+Shrads React: 
+```javascript
+yarn add shards-react 
+```
 
 <br/>
 
@@ -31,11 +66,15 @@ Shrads React: ``` yarn add shards-react ```
 
 Enter to the server folder from a terminal and start the server
 
- ``` npm start ```
+ ```javascript
+npm start 
+  ```
 
 While the server running, create another terminal and enter to the client folder and start the React app
 
-``` yarn start ```
+```javascript
+yarn start 
+```
 
 
 <br/>
