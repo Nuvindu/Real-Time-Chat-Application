@@ -27,6 +27,10 @@ npm install graphql-yoga
 
 <br/>
 
+
+If yarn package is not yet installed, refer the this [link](https://classic.yarnpkg.com/lang/en/docs/install) to install it.
+
+
 Create new package: 
 ```javascript 
 yarn init -y 
